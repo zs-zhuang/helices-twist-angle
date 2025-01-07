@@ -1,4 +1,4 @@
-rna-twist-angle
+helix-twist-angle
 ===========
 
 <img src="https://github.com/zs-zhuang/rna-twist-angle/blob/main/RNA_twist_angle.png">
