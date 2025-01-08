@@ -49,21 +49,21 @@ for x in range(0, len(list)):
 					#print "res1"
                                 	#print current_res, current_ATOM, x1, y1, z1
 
-				if current_res == res2 and (current_ATOM == "C1\'" or current_ATOM == "C1*"):
+				elif current_res == res2 and (current_ATOM == "C1\'" or current_ATOM == "C1*"):
                                 	x2 = float(row[30:38].strip())
                                 	y2 = float(row[38:46].strip())
                                 	z2 = float(row[46:54].strip())
 					#print "res2"
                                 	#print current_res, current_ATOM, x2, y2, z2
 
-				if current_res == res3 and (current_ATOM == "C1\'" or current_ATOM == "C1*"):
+				elif current_res == res3 and (current_ATOM == "C1\'" or current_ATOM == "C1*"):
                                 	x3 = float(row[30:38].strip())
                                 	y3 = float(row[38:46].strip())
                                 	z3 = float(row[46:54].strip())
 					#print "res3"
                                 	#print current_res, current_ATOM, x3, y3, z3
 			
-				if current_res == res4 and (current_ATOM == "C1\'" or current_ATOM == "C1*"):
+				elif current_res == res4 and (current_ATOM == "C1\'" or current_ATOM == "C1*"):
                                 	x4 = float(row[30:38].strip())
                                 	y4 = float(row[38:46].strip())
                                 	z4 = float(row[46:54].strip())
